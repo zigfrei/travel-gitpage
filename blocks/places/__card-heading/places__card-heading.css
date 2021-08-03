@@ -1,0 +1,10 @@
+.places__card-heading {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .places__card-heading {
+    flex-direction: row;
+  }
+}

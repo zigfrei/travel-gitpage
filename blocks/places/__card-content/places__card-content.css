@@ -1,0 +1,12 @@
+.places__card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .places__card-content {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 48px;
+  }
+}

@@ -1,0 +1,30 @@
+.places__paragraf {
+  margin: 32px 16px 0 16px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  color: #fff;
+}
+
+.places__paragraf:nth-child(2){
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 768px){
+  .places__paragraf{
+    margin: 0 0 0 28px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .places__paragraf{
+    margin-left: 32px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .places__paragraf{
+    margin-left: 40px;
+  }
+}
